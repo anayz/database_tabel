@@ -7,7 +7,10 @@ table th{
 	padding: 2px;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	text-align:center;
+	text-align:left;
+	background-color: purple;
+	color: white;
+	text-align: center;
 }
 table td{
 	border: 1px solid #000;

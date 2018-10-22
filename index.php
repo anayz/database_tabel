@@ -1,7 +1,7 @@
 <html>
 <head>
   <title>Menampilkan data dari database ke dalam bentuk tabel</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="edit.css">
 </head>
 <body>
 
