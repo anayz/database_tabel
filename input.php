@@ -1,46 +1,40 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Membuat CRUD dengan PHP dan MySQL - Menampilkan Data dari Database</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Input</title>
+	<link rel="stylesheet" type="text/css" href="edit.css">
 </head>
 <body>
-<div class="Judul">
-	<h1>Membuat CRUD dengan PHP dan MySQL</h1>
-	<h2>Menampilkan Data dari Database</h2>
-</div>
+	<h2><center>Input Data dalam DATABASE</center></h2>
+	<section id="input-form">
+		<form action="input-aksi.php" method="post">
+			<div class="form">
+				<label>Id</label>
+				<input type="text" name="id">
+			</div>
+			<div class="form">
+				<label>Username</label>
+				<input type="text" name="username">
+			</div>
+			<div class="form">
+				<label>Password</label>
+				<input type="password" name="password">
+			</div>
+			<div class="form">
+				<label>Level</label>
+				<input type="text" name="level">
+			</div>
+			<div class="form">
+				<label>Fullname</label>
+				<input type="text" name="fullname">
+			</div>
+			<a href="index.php">Lihat Semua Data</a>
+			<div class="form">
+				<input type="submit" name="submit"
+				value="SUBMIT" class="bg-blue">
+			</div>
+		</form>
+	</section>
 
-<br/>
-<a href="index.php">Lihat Semua Data</a>
-<br/>
-<h3>Input Data Baru</h3>
-<form action="input-aksi.php" method="post">
-	<table>
-		<tr> 
-			<td>id</td>
-			<td><input type="text" name="id"></td>
-		</tr> 
-		<tr>
-			<td>Username</td>
-			<td><input type="text" name="username"></td>
-		</tr>
-		<tr>
-			<td>Password</td>
-			<td><input type="text" name="password"></td>
-		<tr>
-			<td>Level</td>
-			<td><input type="text" name="level"></td>
-		</tr>
-		<tr>
-			<td>Fullname</td>
-			<td><input type="text" name="fullname"></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><input type="Submit" name="Simpan"></td>
-		</tr>
-		</tr>
-	</table>
-</form>
 </body>
 </html>
